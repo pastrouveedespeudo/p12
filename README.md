@@ -2,14 +2,11 @@
 
 https://eltablito.herokuapp.com/ tableau de bord
 
-pfff jaurai plus de video marrante sur fb a cause de ste veille
+mettre les iframes + youtube section python et ia (et dire que tu sais pas faire)
 
-mettre les images
-
-c'ets putin de miche
-
-faire la page dashborad google, twitter, lin et fredy google alert
+fredy google alert
 
 
 
+faire un text sur un sujet récent et c'est bon jcrois
 
