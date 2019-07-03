@@ -5,8 +5,8 @@ https://eltablito.herokuapp.com/ tableau de bord
 
 sur les image mettre l'immage du truk onclick on met la derniere novueauté
 
-rend ca pluss dashboard (mettre des rectangles)
+ok enfete, prendre fb, twitter, google alert et linkin et dire c ca mes veilles et enfete ca c ta presentation...
 
-faut un flux donc mettre un ifram de fredy genre en accueil et rubrique tableau on va sur ste page de "presentation"
+ET faire une page qui regroupe tous ces truks !
 
-faut une autre page twitter (iframe sinon screen shot )
+
