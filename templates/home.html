@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+  <html lang="fr">
+
+    <!-- Head section - Loading CDN -->
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="jb" content="">
+      <title>Veille Technologique</title>
+    
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- Theme CSS - Includes Bootstrap -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    </head>
+
+
+    <!-- Body section -->
+
+    <body>
+
+        <center><div id="yo" style="height:100px;margin-top:50px;"></div></center>
+
+        
+        <center><div id="you" style='display:none;'>
+            <input type='text' placeholder='quel section ?' id='in'>
+            <input type="button" value="Valider" onclick="redirect_you()">
+        </div></center>
+
+        
+        
+        <center>
+            <div style='margin-top:100px;'>
+                <input type="image" src="/static/icone/twitter.png"
+                onclick="redirection('https://twitter.com/')"
+                onmouseover="un('twitter')" onmouseout="deux()">
+                
+                <input type="image" src="/static/icone/deck.png"
+                onclick="redirection('https://tweetdeck.twitter.com/')"
+                onmouseover="un('twideck')" onmouseout="deux()">
+                
+                <input type="image" src="/static/icone/fb.png"
+                onclick="redirection('https://www.facebook.com/?ref=logo')"
+                onmouseover="un('Facebook')" onmouseout="deux()">
+                
+                <input type="image" src="/static/icone/link.png"
+                onclick="redirection('https://www.linkedin.com/search/results/content/?keywords=python&origin=SWITCH_SEARCH_VERTICAL')"
+                onmouseover="un('Linkdle')" onmouseout="deux()">
+                
+                <input type="image" src="/static/icone/you.png"
+                onclick="youtube()"
+                onmouseover="un('Youtube')" onmouseout="deux()">
+                
+                <input type="image" src="/static/icone/fedd.png"
+                onclick="redirection('https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fplanet.scipy.org%2Fatom.xml')"
+                onmouseover="un('Feedly')" onmouseout="deux()">
+                
+            </div>
+        <center>
+        
+   
+
+    </body>
+</html>
+
+
+
+<script>
+
+function redirection(lien){
+    document.location.href=lien;
+};
+
+
+function un(text){
+    document.getElementById('yo').innerHTML = text;
+};
+
+function deux(){
+    document.getElementById('yo').innerHTML = ''
+};
+
+
+function youtube(){
+    document.getElementById('you').style.display = "block";
+};
+
+function redirect_you(){
+    var a = document.getElementById('in').value;
+    document.location.href = "https://www.youtube.com/results?search_query=" + a
+}
+
+</script>
+
+
+<style>
+#in{
+    text-align:center;
+}
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

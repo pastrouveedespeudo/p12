@@ -1,0 +1,991 @@
+
+<!DOCTYPE html>
+  <html lang="fr">
+
+    <!-- Head section - Loading CDN -->
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="jb" content="">
+      <title>Veille Technologique</title>
+    
+
+      <!-- Google Fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+      <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <!-- Theme CSS - Includes Bootstrap -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+    </head>
+
+
+  
+  <!-- Body section -->
+  <body style="background:url('/static/image/veille.jpg') no-repeat fixed center;background-size: cover;">
+
+    <section>
+    <center>
+        <div id='titre'>
+            <h1>Veille technologique</h1>
+            <br>
+            <h2>Programmation technology</h2>
+        </div>
+    </center>
+
+
+
+    <div class="container" style='width:100%;'>
+      <div class="row">
+      
+        <div class="col-sm" id='prog_id'>
+          <input type='button' value='La prog' onclick="menu('prog')" id='button1'>
+        </div>
+
+
+        <div class="col-sm">
+          <input type='button' value='Front' onclick="menu('python')" id='button2'>
+        </div>
+
+        
+        <div class="col-sm">
+          <input type='button' value='Outils' onclick="menu('django')" id='button3'>
+        </div>
+        
+        <div class="col-sm">
+          <input type='button' value='Librairie' onclick="menu('opencv')" id='button4'>
+        </div>
+
+
+        <div class="col-sm">
+          <input type='button' value='Youtube' onclick="menu('youtube')" id='button5'>
+        </div>
+        
+        
+      </div>
+    </div>
+
+
+
+
+
+
+    <div class="container" style='width:100%;' id="expli_prog">
+      <div class="row">
+      
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli1">
+                  <center>
+                   <h3><u>La programmation</u></h3><br><br>
+                  </center>
+              </div>
+
+
+
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli2">
+                  <center>
+
+
+                        <div style='border:1px solid black;'>
+                        <em><u>Qui ?</u></em><br><br>
+                        <span id="un" onclick="vert('un')">
+                            developpez.com
+                        </span><br>
+                            
+                        <span id="deux" onclick="vert('deux')">
+                            start overflow
+                        </span><br>
+                            
+                        <span id="trois" onclick="vert('trois')">
+                            la section youtube python
+                        </span>
+                    
+                        <br><br><br>
+                            
+
+                        
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(site web, forum)'))">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(site web, forum)'))">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(site web, plateforme de vidéo)'))">
+                        </div>
+                        <br><br><br><br><br><br>
+
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli3">
+                  <center>
+                      <div style='border:1px solid black;'>
+                      <em><u>Pourquoi ?</u></em><br><br>
+                      <p style='width:60%;'>
+                      
+                      <span id='quattre' onclick="vert('quattre')">
+                          Les différentes techniques de programmation
+                      </span><br><br>
+
+                      <span id='cinq' onclick="vert('cinq')">
+                          par de nouvelles techniques,<br>
+                      </span><br>
+
+                      <span id='six' onclick="vert('six')">
+                          par la solution d'erreur,<br>
+                      </span><br>
+
+                      <span id='sept' onclick="vert('sept')">
+                          par les nouveautés et l'actu du monde de la tech.
+                      </span><br>
+                      </p>
+                      </div>
+                      <br><br><br><br><br><br>
+                      
+                  
+                  </center>
+              </div>
+              
+
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli5">
+                  <center>
+                    <div style='border:1px solid black;'>
+                    <em><u>Explications :</u></em><br><br>
+
+                    <span id='huit' onclick="vert('huit')">
+                        Importance de se tenir informer,<br>
+                    </span><br>
+
+                    <span id='neuf' onclick="vert('neuf')">
+                        Autonomie de travail (les erreurs et bug)<br>
+                    </span><br>
+
+                    <span id='dix' onclick="vert('dix')">
+                        Apprentissage en solo<br>
+                    </span><br>
+
+                    <span id='onze' onclick="vert('onze')">
+                        Entraide<br>
+                    </span><br>
+
+                    <span id='douze' onclick="vert('douze')">
+                        possibilité d'échanger<br>
+                    </span>
+                    </div>
+                    <br><br><br><br><br><br>
+                  
+                  </center>
+              </div>
+
+
+              <input type='button' value='Fermer' id="fermer_prog" onclick="fermer('expli_prog')">
+              
+      </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container" style='width:100%;' id="expli_python">
+      <div class="row">
+      
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli1">
+                  <center>
+                   <h3><u>La Front programmation</u></h3><br><br>
+                  </center>
+              </div>
+
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli2">
+                  <center>
+                        <div style='border:1px solid black;'>
+                        <em><u>Qui ?</u></em><br><br>
+
+                        
+                        <span id="deuxdeux" onclick="vert('deuxdeux')">
+                            cascading style sheet Compte certifié<br>
+                        </span>
+
+                        <span id="az" onclick="vert('az')">
+                            javascript_DVP<br>
+                        </span>
+
+                        <span id="deuxz" onclick="vert('deuxz')">
+                            Bootstrap<br>
+                        </span>
+
+                        <span id="deuxa" onclick="vert('deuxa')">
+                        John Resig Compte certifié<br>
+                        </span>
+
+                        <span id="deuxeaae" onclick="vert('deuxeaae')">
+                        Eric Meyer<br><br>
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="visu('Groupe Twitter')">
+                        
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="visu('(Groupe Twitter)'))">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="visu('Groupe Twitter')">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="visu('Compte Twitter')">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="visu('Compte Twitter')">
+                        </div>
+                        <br><br><br><br><br><br>
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli3">
+                  <center>
+                      <div style='border:1px solid black;'>
+                      <em><u>Quoi ?</u></em><br>
+                      <span id='treize' onclick="vert('treize')">
+                          Un groupe de travail et de partage de l'information CSS<br>
+                      </span><br>
+
+                      <span id='quatorze' onclick="vert('quatorze')">
+                          Un groupe partageant des informations nouvelles ou non sur JS<br>
+                      </span><br>
+
+                      <span id='quinze' onclick="vert('quinze')">
+                          Un groupe partageant des nouveautés BOOTSTRAP<br>
+                      </span><br>
+
+                      <span id='seize' onclick="vert('seize')">
+                          Un influenceur partageant une méthode de travail et des novueautés sur le JS par exemple<br>
+                      </span><br>
+                      
+                      <span id='dixsept' onclick="vert('dixsept')">
+                          Un influenceur partageant des info sur le monde de la tech.
+                      </span><br>
+                      </div>
+                      <br><br><br><br><br><br>
+                      
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli4">
+                  <center>
+            
+                        <div style='border:1px solid black;'>
+                      <em><u>Pourquoi ?</u></em><br>
+
+                      <span id='dixhuit' onclick="vert('dixhuit')">
+                          Etre au plus pres de l'actualité technologique,<br>
+                      </span><br>
+
+                      <span id='dixneuf' onclick="vert('dixneuf')">
+                          Maintenir son niveau, actualiser ces connaissances,<br>
+                      </span><br>
+
+                      <span id='vingt' onclick="vert('vingt')">
+                          Des solutions peuvent etre apporté,<br>
+                      </span><br>
+
+                      <span id='vingtun' onclick="vert('vingtun')">
+                          Un espace réduit (monde, espace de travail, son pc), <br>
+                      </span><br>
+
+                      <span id='vingtdeux' onclick="vert('vingtdeux')">
+                          On ne connait pas tous<br>
+                      </span><br>
+                      </div>
+                      <br><br><br><br><br><br>
+
+                      
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli5">
+                  <center>
+
+                    <div style='border:1px solid black;'>
+                    <em><u>Explications :</u></em><br>
+
+                      <span id='vingttrois' onclick="vert('vingttrois')">
+                      L'importance de se tenir informer en front,<br>
+                      </span><br>
+
+                      <span id='vingtquattre' onclick="vert('vingtquattre')">
+                      La curiosité créative en front,<br>
+                       </span><br>
+
+                      <span id='vingtcinq' onclick="vert('vingtcinq')">
+                      Les nouveautés technologiques des langages ou méthodes en front
+                      changent à chaques instants,<br>
+                       </span><br>
+
+                      <span id='vingsix' onclick="vert('vingsix')">
+                      Un espace collaboratif en front en cas de difficultés, <br>
+                       </span><br>
+
+                      <span id='vingspet' onclick="vert('vingspet')">
+                      Les tendances du moment en terme de technologie en front doivent
+                      etre actualisé,<br><br>
+                       </span><br>
+                      </div>
+                  </center>
+                  <br><br><br><br><br><br>
+              </div>
+
+
+              <input type='button' value='Fermer' id="fermer_python" onclick="fermer('expli_python')">
+              
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container" style='width:100%;' id="expli_django">
+      <div class="row">
+      
+
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli1">
+                  <center>
+                   <h3><u>Les Outils de dev de site</u></h3><br><br>
+                  </center>
+              </div>
+
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli2">
+                  <center>
+                        <div style='border:1px solid black;'>
+                        <em><u>Qui ?</u></em><br><br>
+                        <span id='vinghuit' onclick="vert('vinghuit')">
+                            Github<br>
+                        </span>
+
+                        <span id='vingneuf' onclick="vert('vingneuf')">
+                            Django<br>
+                        </span>
+
+                        <span id='trente' onclick="vert('trente')">
+                            Flask<br>
+                        </span>
+
+                        <span id='trenteun' onclick="vert('trenteun')">
+                            Heroku<br>
+                        </span>
+                        </div>
+                        <br><br><br><br><br><br>
+    
+
+            
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli3">
+                  <center>
+                      <div style='border:1px solid black;'>
+                      <em><u>Quoi ?</u></em><br>
+                      <span id='trendeux' onclick="vert('trendeux')">
+                          Des outils pour le développement<br>
+                      </span><br>
+
+                      <span id='trentetrois' onclick="vert('trentetrois')">
+                          Des outils opensource<br>
+                      </span><br>
+
+                      <span id='trentequattre' onclick="vert('trentequattre')">
+                          Cloud<br>
+                      </span><br>
+
+                      <span id='trencinq' onclick="vert('trencinq')">
+                          Framework<br>
+                      </span><br>
+
+                      <span id='trensix' onclick="vert('trensix')">
+                          Des facilitateurs pour coder
+                      </span><br>
+                      </div>
+                      <br><br><br><br><br><br>
+                  
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli4">
+                  <center>
+
+                      <div style='border:1px solid black;'>
+                      <em><u>Pourquoi ?</u></em><br>
+
+                      <span id='trensept' onclick="vert('trensept')">
+                          Se faciliter la tache<br>
+                      </span><br>
+
+                      <span id='trenhuit' onclick="vert('trenhuit')">
+                          coder plus efficacement<br>
+                      </span><br>
+
+                      <span id='trehneuf' onclick="vert('trehneuf')">
+                          Stocker nos informations<br>
+                      </span><br>
+
+                      <span id='quarante' onclick="vert('quarante')">
+                          Partager<br>
+                      </span><br>
+                      </div>
+                      <br><br><br><br><br><br>
+
+                      
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli5">
+                  <center>
+
+                    <div style='border:1px solid black;'>
+                    <em><u>Explications :</u></em><br>
+
+                    <span id='quaranteun' onclick="vert('quaranteun')">
+                        Gagner du temps<br>
+                    </span><br>
+
+                    <span id='quarantedeuc' onclick="vert('quarantedeuc')">
+                        Gagner de l'espace de stockage<br>
+                    </span><br>
+
+                    <span id='quarantetrois' onclick="vert('quarantetrois')">
+                        Partager ses créations librement(Github) ou non (Heroku)
+                    </span><br><br>
+                    </div>
+                    <br><br><br><br><br><br>
+
+                  
+                  </center>
+              </div>
+
+
+              <input type='button' value='Fermer' id="fermer_django" onclick="fermer('expli_django')">
+              
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="container" style='width:100%;' id="expli_cv">
+      <div class="row">
+      
+
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli1">
+                  <center>
+                   <h3><u>Les libraries</u></h3><br><br>
+                  </center>
+              </div>
+
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli2">
+                  <center>
+                        <div style='border:1px solid black;'>
+                        <em><u>Qui ?</u></em><br><br>
+
+                        <span id='quarantetauttre' onclick="vert('quarantetauttre')">
+                            OpenCV<br>
+                        </span>
+
+                        <span id='quarantecinq' onclick="vert('quarantecinq')">
+                            PIL<br>
+                        </span>
+
+                        <span id='quarantesix' onclick="vert('quarantesix')">
+                            BS4<br>
+                        </span>
+
+                        <span id='quarantepts' onclick="vert('quarantepts')">
+                            pytorch<br>
+                        </span>
+
+                        <span id='quarantethuit' onclick="vert('quarantethuit')">
+                            Yann Lecun<br>
+                        </span>
+
+                        <span id='quarantetneuf' onclick="vert('quarantetneuf')">
+                            section ia youtube
+                        </span>
+                        </div>
+                        <br><br><br><br><br><br>
+
+
+            
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli3">
+                  <center>
+                      <div style='border:1px solid black;'>
+                      <em><u>Quoi ?</u></em><br>
+
+                      <span id='cinquante' onclick="vert('cinquante')">
+                          Librarie pour traiter des images<br>
+                      </span><br>
+
+                      <span id='cinquanteun' onclick="vert('cinquanteun')">
+                          Librarie pour la recherche de tag en HTML<br>
+                      </span><br>
+
+                      <span id='cinquantede' onclick="vert('cinquantede')">
+                          librairie pour l'IA
+                      </span><br><br>
+
+                      <span id='cinquantetroi' onclick="vert('cinquantetroi')">
+                          Avoir la l'imrepssion d'etre renseigner sur l'IA
+                      </span><br>
+                      </div>
+                      <br><br><br><br><br><br>
+                  
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli4">
+                  <center>
+
+                      <div style='border:1px solid black;'>
+                      <em><u>Pourquoi ?</u></em><br>
+                      <span id='cinquantequattre' onclick="vert('cinquantequattre')">
+                          Etre a jour sur les libraries<br>
+                      </span><br>
+
+                      <span id='cinquantecinq' onclick="vert('cinquantecinq')">
+                          Etre a jour pour d'éventuels updates<br>
+                      </span><br>
+
+                      <span id='cinquantesix' onclick="vert('cinquantesix')">
+                          J'aimerai faire de l'ia
+                      </span><br>
+                      </div>
+                      <br><br><br><br><br><br>
+                      
+
+                      
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli5">
+                  <center>
+
+                    <div style='border:1px solid black;'>
+                    <em><u>Explications :</u></em><br>
+
+                    <span id='cinquantesept' onclick="vert('cinquantesept')">
+                    Certaines libraries fotn des mise a jour et un outils peut devenir obsolete<br>
+                    </span><br>
+                    
+                    <span id='cinquantehuit' onclick="vert('cinquantehuit')">
+                    Certain update changent certains outils<br>
+                    </span><br>
+
+                    <span id='cinquanteneuf' onclick="vert('cinquanteneuf')">
+                    Certaines nouveautés et fonctionnalités peuvent apparaitre
+                    </span><br><br>
+
+                    <span id='soiwante' onclick="vert('soiwante')">
+                    Automatiser certaine tache, Je ne connais que Yann Lecun et des influenceur de youtube...
+                    </span>
+                    </div>
+                    <br><br><br><br><br><br>
+                  
+                  </center>
+              </div>
+
+
+              <input type='button' value='Fermer' id="fermer_cv" onclick="fermer('expli_cv')">
+              
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container" style='width:100%;' id="expli_youtube">
+      <div class="row">
+      
+
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli1">
+                  <center>
+                   <h3><u>La section Youtube</u></h3><br><br>
+                  </center>
+              </div>
+
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli2">
+                  <center>
+                        <div style='border:1px solid black;'>
+                        <em><u>Qui ?</u></em><br><br>
+
+                        <span id='soiwanteun' onclick="vert('soiwanteun')">
+                            Youtube section IA<br>
+                        </span><br>
+
+                        <span id='soiwantede' onclick="vert('soiwantede')">
+                            Youtube section python<br>
+                        </span><br>
+
+                        <span id='soiwantetr' onclick="vert('soiwantetr')">
+                            Rechercher selon le besoin<br><br>
+                        </span>
+                        </div>
+                        <br><br><br><br><br><br>
+
+
+            
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli3">
+                  <center>
+                      <div style='border:1px solid black;'>
+                      <em><u>Quoi ?</u></em><br>
+                      <span id='soiwantetreaz' onclick="vert('soiwantetreaz')">
+                          Des vidéo<br>
+                      </span><br>
+
+                      <span id='soiwantetrezaeaz' onclick="vert('soiwantetrezaeaz')">
+                          Des Influenceurs<br>
+                      </span><br>
+
+                      <span id='soiwantetreazeazaze' onclick="vert('soiwantetreazeazaze')">
+                          Des chaines
+                      </span><br>
+                      </div>
+                      <br><br><br><br><br><br>
+                  
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli4">
+                  <center>
+
+                      <div style='border:1px solid black;'>
+                      <em><u>Pourquoi ?</u></em><br>
+                      <span id='eazeaz132' onclick="vert('eazeaz132')">
+                          Répondre à une solution<br>
+                      </span><br>
+
+                      <span id='bvcv' onclick="vert('bvcv')">
+                          Mise a jour de librarie ou de technique par voix orale<br>
+                      </span><br>
+
+                      <span id='kuykuyky' onclick="vert('kuykuyky')">
+                          Certaines idées visions<br>
+                      </span><br>
+
+                      <span id='popyi' onclick="vert('popyi')">
+                         cours
+                      </span><br>
+                      </div>
+                      <br><br><br><br><br><br>
+
+                      
+                  </center>
+              </div>
+              
+              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli5">
+                  <center>
+
+                    <div style='border:1px solid black;'>
+                    <em><u>Explications :</u></em><br>
+
+                    <span id='soiwantetreazeazaze25' onclick="vert('soiwantetreazeazaze25')">
+                        Il est plus facile d'écouter<br>
+                    </span><br>
+
+                    <span id='soiwantetreazeazaz27e' onclick="vert('soiwantetreazeazaz27e')">
+                        Il est plus facile d'avoir l'appréhension d'une vraie personne<br>
+                    </span><br>
+
+                    <span id='soiwantetreaze678azaze' onclick="vert('soiwantetreaze678azaze')">
+                        Une explciation peut etre plus facile avec certaines émotion a contrario des texte<br>
+                    </span><br>
+
+                    
+                    <span id='soiwantetr2424eazeazaze' onclick="vert('soiwantetr2424eazeazaze')">
+                        Plusieurs approches sur un meme theme
+                    </span><br>
+                    </div>
+                  
+                  </center>
+                  <br><br><br><br><br><br>
+              </div>
+
+
+              <input type='button' value='Fermer' id="fermer_youtube" onclick="fermer('expli_youtube')">
+              
+      </div>
+    </div>
+
+
+
+
+
+
+    </section>
+
+
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </body>
+</html>
+
+
+<style>
+body {
+  background:url('/static/image/veille.jpg') no-repeat fixed center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+em{
+    float:left;
+}
+body{
+    background:white;
+}
+#titre{
+    margin-top:50px;
+}
+.container{
+    margin-top:100px;
+}
+input{
+    border:none;
+    background:none;
+    width:100%;
+    height:50px;
+    font-weight:bold;
+    color:white;
+    font-size:1.8vw;
+}
+input:hover{
+    border:1px solid white;
+}
+
+#expli1{
+    color:white;
+    font-weight:bold;
+    text-shadow:0.5px 0.5px white;
+    font-size:2vw;
+}
+#expli2,
+#expli3,
+#expli4,
+#expli5,
+#expli6{
+    color:white;
+    font-weight:bold;
+    text-shadow:0.5px 0.5px white;
+    font-size:2vw;
+}
+
+#expli_python,
+#expli_django,
+#expli_cv,
+#expli_youtube,
+#expli_prog{
+    display:none;
+}
+h3{
+    margin:20px;
+}
+.gauche{
+    float:left;
+}
+#fermer_prog{
+    color:white;
+}
+h2,
+h1{
+    color:white;
+}
+
+#fermer_python:hover,
+#fermer_django:hover,
+#fermer_cv:hover,
+#fermer_youtube:hover,
+#fermer_prog:hover{
+    color:red;
+    border:none;
+}
+</style>
+
+
+
+
+<script>
+
+
+function menu(theme){
+    if(theme=='prog'){
+        document.getElementById('expli_prog').style.display = 'block';
+        document.getElementById('button1').style.color = "red";
+        document.getElementById('expli_python').style.display = 'none';
+        document.getElementById('expli_django').style.display = 'none';
+        document.getElementById('expli_cv').style.display = 'none';
+        document.getElementById('expli_youtube').style.display = 'none';
+        
+    }
+    else if(theme=='python'){
+        document.getElementById('expli_python').style.display = 'block';
+        document.getElementById('button2').style.color = "red";
+        document.getElementById('expli_prog').style.display = 'none';
+        document.getElementById('expli_cv').style.display = 'none';
+        document.getElementById('expli_django').style.display = 'none';
+        document.getElementById('expli_youtube').style.display = 'none';
+    }
+    else if(theme=='django'){
+        document.getElementById('expli_django').style.display = 'block';
+        document.getElementById('button3').style.color = "red";
+        document.getElementById('expli_cv').style.display = 'none';
+        document.getElementById('expli_python').style.display = 'none';
+        document.getElementById('expli_prog').style.display = 'none';
+        document.getElementById('expli_youtube').style.display = 'none';
+    }
+    else if(theme=='opencv'){
+        document.getElementById('expli_cv').style.display = 'block';
+        document.getElementById('button4').style.color = "red";
+        document.getElementById('expli_django').style.display = 'none';
+        document.getElementById('expli_python').style.display = 'none';
+        document.getElementById('expli_prog').style.display = 'none';
+        document.getElementById('expli_youtube').style.display = 'none';
+    }
+    else if(theme=='youtube'){
+        document.getElementById('expli_youtube').style.display = 'block';
+        document.getElementById('button5').style.color = "red";
+        document.getElementById('expli_prog').style.display = 'none';
+        document.getElementById('expli_python').style.display = 'none';
+        document.getElementById('expli_cv').style.display = 'none';
+        document.getElementById('expli_django').style.display = 'none';
+    };
+
+
+    
+};
+
+
+
+
+
+
+function fermer(div){
+    document.getElementById(div).style.display = 'none';
+}
+
+
+
+
+
+
+function prog_function(){
+    
+    var a = document.getElementById('button1').value;
+    document.getElementById('button1').value = 'Site';
+  
+    document.getElementById('button1').style.border = "3px solid black";
+    
+        
+    
+
+};
+
+
+function vert(div){
+    document.getElementById(div).style.color = "green";
+}
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
