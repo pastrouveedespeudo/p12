@@ -24,14 +24,41 @@
 
     <body>
         <div class="cadre-diapo">
-            <img class="diapo" src="../../../images/1.jpg" alt>
-            <img class="diapo" src="../../../images/2.jpg" alt>
-            <img class="diapo" src="../../../images/3.jpg" alt>
-            <button class="precedent" aria-label="précédent" onclick="boutons(-1)">❮</button>
+
+
             <button class="suivant" aria-label="suivant" onclick="boutons(1)">❯</button><div class="cadre-diapo">
-            <img class="diapo" src="../../../images/1.jpg" alt>
-            <img class="diapo" src="../../../images/2.jpg" alt>
-            <img class="diapo" src="../../../images/3.jpg" alt>
+
+
+
+            <img src="/static/image/twideck.jpg" class='diapo'
+            style='height:800px;margin-top:200px;'>
+            
+            <img src="/static/image/twitta.png" class='diapo'
+            style='height:800px;margin-top:150px;width:400px;'>
+
+
+            <img src="/static/image/fb.png" class='diapo'
+            style='height:800px;margin-top:200px; width:300px;'>
+            
+            <img src="/static/image/link.png" class='diapo'
+            style='height:800px;margin-top:210px;width:400px;'>
+
+
+            <img src="/static/image/groupe.png" class='diapo'
+            style='height:800px;margin-top:200px; width:400px;'>
+            
+            <img src="/static/image/youtube.png" class='diapo'
+            style='height:800px;margin-top:150px;'>
+
+
+            <img src="/static/image/js.png" class='diapo'
+            style='height:800px;margin-top:200px;'>
+       
+            <img src="/static/image/fredly.png" class='diapo'
+            style='height:800px;margin-top:200px;'>
+
+
+            
             <button class="precedent" aria-label="précédent" onclick="boutons(-1)">❮</button>
             <button class="suivant" aria-label="suivant" onclick="boutons(1)">❯</button>
     </body>
@@ -81,6 +108,7 @@ position: relative
 }
 
 
+
 .diapo {
 opacity: 0;
 position: absolute;
@@ -89,7 +117,8 @@ transform: translate3d(-50%,-50%,0);
 top: 50%;
 transition: opacity 1s;
 width: 100%;
-max-width: 600px;
+height: 100%;
+
 
 
 }
@@ -105,7 +134,7 @@ cursor: pointer
 .precedent,
 .suivant{
 
-color: silver;
+color: black;
 transition: color .4s linear;
 transform: translatey(-50%);
 top: 50%;
@@ -121,22 +150,22 @@ position: absolute
 
 .precedent:hover,
 .suivant:hover{
-
-color: black
+color: red
 
 }
 
 .numeros{
 transition: background .4s linear;
 color: white;
-background: #7A5FFF
+background: black;
 
 }
 
 .cadre-demo{
-
 display: flex;
 justify-content: center;
+width:100%;
+height:100%;
 
 }
 </style>
