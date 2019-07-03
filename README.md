@@ -2,7 +2,7 @@
 
 https://eltablito.herokuapp.com/ tableau de bord
 
-mon dieu c trop la honte, sur linkin jvoulais suivre j'ai demandé en ami et on peut pas ne pas supprimer la demande
+mon dieu c trop la honte, sur linkin jvoulais suivre j'ai demandé en ami et on pouvait pas ne pas supprimer la demande
 
 mettre les images
 
