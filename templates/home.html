@@ -25,7 +25,12 @@
 
     <body>
 
-        <center><div id="yo" style="height:100px;margin-top:50px;"></div></center>
+                
+    
+        <center><div id="yo" style="height:100px;width:100%;margin-top:50px;"></div></center>
+        <br><br><br><br><br><br>
+
+        
 
         
         <center><div id="you" style='display:none;'>
@@ -36,7 +41,7 @@
         
         
         <center>
-            <div style='margin-top:100px;'>
+            <div>
                 <input type="image" src="/static/icone/twitter.png"
                 onclick="redirection('https://twitter.com/')"
                 onmouseover="un('twitter')" onmouseout="deux()">
@@ -60,10 +65,22 @@
                 <input type="image" src="/static/icone/fedd.png"
                 onclick="redirection('https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fplanet.scipy.org%2Fatom.xml')"
                 onmouseover="un('Feedly')" onmouseout="deux()">
+
+                <input type="image" src="/static/icone/presentation.png"
+                onclick="redirection('presentation')"
+                onmouseover="un('Présentation')" onmouseout="deux()">
+
+                <input type="image" src="/static/icone/dah.png"
+                onclick="redirection('bord')"
+                onmouseover="un('Dashboard')" onmouseout="deux()">
+
+
+
                 
             </div>
-        <center>
-        
+        </center>
+
+        <center><img src="/static/icone/logo.png"></center>
    
 
     </body>
@@ -107,7 +124,20 @@ function redirect_you(){
 </style>
 
 
+<style>
+#one,
+#two{
+     background:none;
+     border:none;
+     width:100px;
+     height:40px;
+}
+#one:hover,
+#two:hover{
+    border:1px solid black;
+}
 
+</style>
 
 
 
