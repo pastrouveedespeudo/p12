@@ -45,16 +45,16 @@
 
 
         <div class="col-sm">
-          <input type='button' value='Python' onclick="menu('python')" id='button2'>
+          <input type='button' value='Front' onclick="menu('python')" id='button2'>
         </div>
 
         
         <div class="col-sm">
-          <input type='button' value='Django' onclick="menu('django')" id='button3'>
+          <input type='button' value='Outils' onclick="menu('django')" id='button3'>
         </div>
         
         <div class="col-sm">
-          <input type='button' value='OpenCV' onclick="menu('opencv')" id='button4'>
+          <input type='button' value='Librairie' onclick="menu('opencv')" id='button4'>
         </div>
 
 
@@ -80,14 +80,36 @@
                   </center>
               </div>
 
-              
+
+
               <div class="col-sm-12 cold-md-12 col-lg-12" id="expli2">
                   <center>
 
                         <em><u>Qui ?</u></em><br><br>
-                        developpez.com<br>
-                        start overflow<br>
-                        la section youtube python<br><br>
+                        <span id="un" onclick="vert('un')">
+                            developpez.com
+                        </span><br>
+                            
+                        <span id="deux" onclick="vert('deux')">
+                            start overflow
+                        </span><br>
+                            
+                        <span id="trois" onclick="vert('trois')">
+                            la section youtube python
+                        </span>
+                            <br><br><br>
+                            
+
+                        
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(site web, forum)'))">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(site web, forum)'))">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(site web, plateforme de vidéo)'))">
+                        
                         <br><br><br><br><br><br>
 
                   </center>
@@ -96,27 +118,59 @@
               <div class="col-sm-12 cold-md-12 col-lg-12" id="expli3">
                   <center>
                   
-                      <em><u>Quoi ?</u></em><br>
+                      <em><u>Pourquoi ?</u></em><br><br>
+                      <p style='width:60%;'>
+                      
+                      <span id='quattre' onclick="vert('quattre')">
+                          Les différentes techniques de programmation
+                      </span><br><br>
+
+                      <span id='cinq' onclick="vert('cinq')">
+                          par de nouvelles techniques,<br>
+                      </span><br>
+
+                      <span id='six' onclick="vert('six')">
+                          par la solution d'erreur,<br>
+                      </span><br>
+
+                      <span id='sept' onclick="vert('sept')">
+                          par les nouveautés et l'actu du monde de la tech.
+                      </span><br>
+                      </p>
+                      <br><br><br><br><br><br>
+                      
                   
                   </center>
               </div>
               
-              <div class="col-sm-12 cold-md-12 col-lg-12" id="expli4">
-                  <center>
 
-                  
-                      <em><u>Pourquoi ?</u></em>
-
-                      
-                  </center>
-              </div>
               
               <div class="col-sm-12 cold-md-12 col-lg-12" id="expli5">
                   <center>
 
+                    <em><u>Explications :</u></em><br><br>
 
-                    <em><u>Explications :</u></em>
+                    <span id='huit' onclick="vert('huit')">
+                        Importance de se tenir informer,<br><br>
+                    </span><br>
 
+                    <span id='neuf' onclick="vert('neuf')">
+                        Autonomie de travail (les erreurs et bug)<br>
+                    </span><br>
+
+                    <span id='dix' onclick="vert('dix')">
+                        Apprentissage en solo<br>
+                    </span><br>
+
+                    <span id='onze' onclick="vert('onze')">
+                        Entraide<br>
+                    </span><br>
+
+                    <span id='douze' onclick="vert('douze')">
+                        possibilité d'échanger<br>
+                    </span>
+                    
+                    <br><br><br><br><br><br>
                   
                   </center>
               </div>
@@ -143,12 +197,14 @@
 
 
 
+
+
     <div class="container" style='width:100%;' id="expli_python">
       <div class="row">
       
               <div class="col-sm-12 cold-md-12 col-lg-12" id="expli1">
                   <center>
-                   <h3><u>La programmation</u></h3><br><br>
+                   <h3><u>La Front programmation</u></h3><br><br>
                   </center>
               </div>
 
@@ -157,8 +213,29 @@
                   <center>
 
                         <em><u>Qui ?</u></em><br><br>
+                        
+                        cascading style sheet Compte certifié<br>
+                        javascript_DVP<br>
+                        Bootstrap<br>
+                        John Resig Compte certifié<br>
+                        Eric Meyer<br><br>
 
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(Groupe Twitter)'))">
 
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(Groupe Twitter)'))">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(Groupe Twitter)'))">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(Compte Twitter)'))">
+
+                        <input type='image' src="zeaz" style='width:100px;'
+                        onclick="(visu('(Compte Twitter)'))">
+
+                        <br><br><br><br><br><br>
                   </center>
               </div>
               
@@ -166,6 +243,26 @@
                   <center>
                   
                       <em><u>Quoi ?</u></em><br>
+                      <span id='treize' onclick="vert('treize')">
+                          Un groupe de travail et de partage de l'information CSS<br>
+                      </span><br>
+
+                      <span id='quatorze' onclick="vert('quatorze')">
+                          Un groupe partageant des informations nouvelles ou non sur JS<br>
+                      </span><br>
+
+                      <span id='quinze' onclick="vert('quinze')">
+                          Un groupe partageant des nouveautés BOOTSTRAP<br>
+                      </span><br>
+
+                      <span id='seize' onclick="vert('seize')">
+                          Un influenceur partageant une méthode de travail et des novueautés sur le JS par exemple<br>
+                      </span><br>
+                      
+                      <span id='dixsept' onclick="vert('dixsept')">
+                          Un influenceur partageant des info sur le monde de la tech.
+                      </span><br>
+                      <br><br><br><br><br><br>
                   
                   </center>
               </div>
@@ -174,7 +271,28 @@
                   <center>
 
                   
-                      <em><u>Pourquoi ?</u></em>
+                      <em><u>Pourquoi ?</u></em><br>
+
+                      <span id='dixhuit' onclick="vert('dixhuit')">
+                          Etre au plus pres de l'actualité technologique,<br>
+                      </span><br>
+
+                      <span id='dixneuf' onclick="vert('dixneuf')">
+                          Maintenir son niveau, actualiser ces connaissances,<br>
+                      </span><br>
+
+                      <span id='vingt' onclick="vert('vingt')">
+                          Des solutions peuvent etre apporté,<br>
+                      </span><br>
+
+                      <span id='vingtun' onclick="vert('vingtun')">
+                          Un espace réduit (monde, espace de travail, son pc), <br>
+                      </span><br>
+
+                      <span id='vingtdeux' onclick="vert('vingtdeux')">
+                          On ne connait pas tous<br>
+                      </span><br>
+                      <br><br><br><br><br><br>
 
                       
                   </center>
@@ -184,8 +302,29 @@
                   <center>
 
 
-                    <em><u>Explications :</u></em>
+                    <em><u>Explications :</u></em><br>
 
+                      <span id='vingttrois' onclick="vert('vingttrois')">
+                      L'importance de se tenir informer en front,<br>
+                      </span><br>
+
+                      <span id='vingtquattre' onclick="vert('vingtquattre')">
+                      La curiosité créative en front,<br>
+                       </span><br>
+
+                      <span id='vingtcinq' onclick="vert('vingtcinq')">
+                      Les nouveautés technologiques des langages ou méthodes en front
+                      changent à chaques instants,<br>
+                       </span><br>
+
+                      <span id='vingsix' onclick="vert('vingsix')">
+                      Un espace collaboratif en front en cas de difficultés, <br>
+                       </span><br>
+
+                      <span id='vingspet' onclick="vert('vingspet')">
+                      Les tendances du moment en terme de technologie en front doivent
+                      etre actualisé,<br><br>
+                       </span><br>
                   
                   </center>
               </div>
@@ -235,7 +374,7 @@
 
               <div class="col-sm-12 cold-md-12 col-lg-12" id="expli1">
                   <center>
-                   <h3><u>La programmation</u></h3><br><br>
+                   <h3><u>Les Outils de dev de site</u></h3><br><br>
                   </center>
               </div>
 
@@ -610,6 +749,11 @@ function prog_function(){
     
 
 };
+
+
+function vert(div){
+    document.getElementById(div).style.color = "green";
+}
 
 </script>
 
