@@ -2,7 +2,7 @@
 
 https://eltablito.herokuapp.com/ tableau de bord
 
-mon dieu c trop la honte, sur linkin jvoulais suivre j'ai demandé en ami et on pouvait pas ne pas supprimer la demande c comme la fois ou on recevait un controle et que mon dessous de bras transpirant a fait un meme bruit, "c mon bras" n'etait pas tres convainquant
+calme
 
 mettre les images
 
