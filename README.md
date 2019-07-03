@@ -3,10 +3,12 @@
 https://eltablito.herokuapp.com/ tableau de bord
 
 
-sur les image mettre l'immage du truk onclick on met la derniere novueauté
+mettre les images
 
-ok enfete, prendre fb, twitter, google alert et linkin + feedly pour avoir une vieille 360 ! dire c ca mes veilles et enfete ca c ta presentation...
+c'ets putin de miche
 
-ET faire une page qui regroupe tous ces truks !
+faire la page dashborad google, twitter, lin et fredy google alert
+
+
 
 
