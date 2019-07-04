@@ -26,6 +26,11 @@
   <body style="background:url('/static/image/veille1.png') no-repeat fixed center;background-size: cover;">
 
     <section>
+
+    <input type='button' value='Menu' style='width:200px;color:black;'
+    onclick="redi('/')">
+    <input type='button' value='Dashboard' style='width:200px;color:black;float:right'
+    onclick="redi('bord')">
     <center>
         <div id='titre'>
             <h1>Veille technologique</h1>
@@ -934,7 +939,10 @@ h1{
 
 <script>
 
+function redi(lien){
+  window.location.href = lien;
 
+}
 function menu(theme){
     if(theme=='prog'){
         document.getElementById('expli_prog').style.display = 'block';
