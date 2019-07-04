@@ -23,9 +23,15 @@
     <!-- Body section -->
 
     <body>
+    <input type='button' value='Menu' style='width:200px;color:black;'
+     onclick="redi('/')">
+    <input type='button' value='Présentation' style='width:200px;color:black;float:right'
+     onclick="redi('presentation')"><br>
+
+     
         <div class="cadre-diapo">
 
-
+            <br><br>
             <button class="suivant" aria-label="suivant" onclick="boutons(1)">❯</button><div class="cadre-diapo">
 
 
@@ -78,7 +84,6 @@ affichage(diaporama += n);
 function actifIndic(n) {
 affichage(diaporama = n);
 }
-
 function affichage(n) {
 var i;
 var diapoImg = document.getElementsByClassName("diapo");
@@ -95,7 +100,21 @@ indic[i].className = indic[i].className.replace(" numeros", "");
 diapoImg[diaporama-1].style.opacity = "1"; 
 indic[diaporama-1].className += " numeros";
 }
+
+function redi(lien){
+  window.location.href = lien;
+
+}
 </script>
+
+
+
+
+
+
+
+
+
 
 <style>
 .cadre-diapo{
@@ -167,6 +186,11 @@ justify-content: center;
 width:100%;
 height:100%;
 
+}
+input{
+    background:none;
+    border:none;
+    font-weight:bold;
 }
 </style>
 
